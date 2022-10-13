@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
 * main - Entry point of the program
 * Description: 'the program prints and that piece of art is useful"
