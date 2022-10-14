@@ -1,8 +1,10 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 /**
 *main - Starting point of the program
 *program descriptiom 'Program assigns random number and prints last 5 values'
+*return Always (0) for success
 */
 int main(void)
 {
@@ -22,7 +24,7 @@ int main(void)
 	}
 	else if (n < 6 && n != 0)
 	{
-		printf("Last digit of n is %d and is less than 6 and not 0\n", 
+		printf("Last digit of n is %d and is less than 6 and not 0\n",
 		n);
 
 	}
