@@ -3,9 +3,10 @@
 #include <stdio.h>
 /**
 * Main - Start point of the program
-* Program description: 'Program asssigns random numbers and prints the results'
+* Description: 'Program asssigns random numbers and prints the results'
 * Return: Always 0 for success
 */
+
 int main(void)
 {
 	int n;
@@ -16,12 +17,10 @@ int main(void)
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
-
 	}
 	else if (n == 0)
 	{
 		printf("%d is zero\n", n);
-
 	}
 	else if (n < 0)
 	{
