@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
 * Main - Start point of the program
-* The program asssigns random numbers and prints the results
+* Program description: 'Program asssigns random numbers and prints the results'
 * Return: Always 0 for success
 */
 int main(void)
@@ -25,8 +25,7 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		printf("%d is negative\n", n );
-
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
