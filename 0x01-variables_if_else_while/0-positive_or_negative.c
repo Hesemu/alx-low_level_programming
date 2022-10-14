@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* Main - Start point of the program
-* Description: 'Program asssigns random numbers and prints the results'
+* main - Start point of the program
+* Prrame description 'program assigns random numbers and prints them'
 * Return: Always 0 for success
 */
 
