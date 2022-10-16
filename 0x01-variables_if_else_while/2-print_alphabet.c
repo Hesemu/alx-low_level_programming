@@ -8,9 +8,11 @@
 int main(void)
 {
 	char alphabet = 'A';
+
 	if (alphabet <= 'Z')
 	{
 		putchar(tolower(alphabet));
+		alphabet++;
 	}
 	putchar('\n');
 	return (0);
