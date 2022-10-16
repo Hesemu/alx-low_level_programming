@@ -3,8 +3,8 @@
 #include <time.h>
 /**
 *main - Starting point of the program
-*program descriptiom 'Program assigns random number and prints last 5 values'
-*return Always (0) for success
+*program descriptiom 'Program assigns random number and prints last 5 digit'
+*Return: Always (0) for success
 */
 int main(void)
 {
