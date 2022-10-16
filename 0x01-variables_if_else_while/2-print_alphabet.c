@@ -11,8 +11,8 @@ int main(void)
 
 	if (alphabet <= 'Z')
 	{
-		putchar(tolower(alphabet));
 		alphabet++;
+		putchar(tolower(alphabet));
 	}
 	putchar('\n');
 	return (0);
