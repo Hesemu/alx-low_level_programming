@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
 *main - Entry point of the program
-*Description 'program that prints all possible combinations of single digit
-numbers'
+*Description 'program that prints all possible combinations of single digits'
 *Return: Always (0) success
 */
 int main(void)
