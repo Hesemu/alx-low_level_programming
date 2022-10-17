@@ -11,8 +11,9 @@ int main(void)
 
 	for (x = 0; x < 10; x++)
 	{
+		putchar((x % 10) + '0');
+
 		for (alphabet = 'a'; alphabet <= 'f'; alphabet++)
-			putchar((x % 10) + '0');
 		putchar(alphabet);
 
 	}
