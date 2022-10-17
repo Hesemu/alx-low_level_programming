@@ -14,8 +14,8 @@ int main(void)
 		alphabet--;
 		switch (alphabet)
 		{
-case: (alphabet == 'q');
-case: (alphabet == 'e');
+			case (alphabet == 'q'):
+			case (alphabet == 'e'):
 			continue;
 		}
 	putchar('\n');
