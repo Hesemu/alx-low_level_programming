@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 /**
 *main - Entry point of the program
 * Description 'program that prints the alphabet in lowercase and uppercase'
@@ -7,13 +8,12 @@
 int main(void)
 {
 	char alphabet = 'a';
-	char ALPHABET = 'A';
 
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+		putchar(alphabet);
 	{
-		for (ALPHABET = 'A'; ALPHABET <= 'Z'; ALPHABET++)
-			putchar(alphabet);
-		putchar(ALPHABET);
+		for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+		putchar(toupper(alphabet));
 
 	}
 	putchar('\n');
