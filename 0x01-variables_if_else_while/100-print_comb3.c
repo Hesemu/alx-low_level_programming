@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
 *main - Entry point of the program
-*Description 'program that prints all possible different combinations of two di
-gits'
+*Description 'program that prints all possible different combinations of two
+*digits in ascending order
 *Return: Always (0) success
 */
 int main(void)
