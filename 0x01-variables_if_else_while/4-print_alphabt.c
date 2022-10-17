@@ -8,13 +8,10 @@ int main(void)
 {
 	char alphabet = 'a';
 
-	if (alphabet <= 'z')
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		switch (alphabet)
-		case (alphabet != 'e'):
-		case (alphabet != 'q'):
+		if (alphabet != 'e' && alphabet != 'q')
 			putchar(alphabet);
-			alphabet++;
 	}
 	putchar('\n');
 	return (0);
