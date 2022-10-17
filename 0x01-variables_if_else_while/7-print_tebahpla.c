@@ -4,7 +4,7 @@
 *Description 'program that prints the lowercase alphabet in reverse'
 *Return: Always (0) success
 */
-int main(0)
+int main(void)
 {
 	char alphabet = 'z';
 
