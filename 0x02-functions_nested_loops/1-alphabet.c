@@ -1,9 +1,8 @@
 #include "main.h"
 /**
-*main - Entry point of the program
-*print_alphabet 'a function that prints the alphabet, in lowercase followed by a
-*new line'
-Return: Always (0) for success
+*print_alphabet - Entry point of the program
+*print_alphabet description 'a function that prints the alphabet, in lowercase
+*followed by a new line'
 */
 void print_alphabet(void)
 {
