@@ -4,7 +4,7 @@
 * print_numbers - function prints numbers from 0-9
 *Return: 0-9
 */
-void print_numbers(int x)
+void print_numbers(void)
 {
 	int x;
 
@@ -13,5 +13,7 @@ void print_numbers(int x)
 		_putchar((x % 10) + '0');
 	}
 	_putchar('\n');
+
+	return (x);
 
 }
