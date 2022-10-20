@@ -1,4 +1,5 @@
 #include "main.h"
+#include <unistd.h>
 /**
 * print_numbers - function prints numbers from 0-9
 *Return: 0-9
