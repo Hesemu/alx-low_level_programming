@@ -1,6 +1,7 @@
 #include "main.h"
 /**
 * print_numbers - function prints numbers from 0-9
+*Return: 0-9
 */
 void print_numbers(void)
 {
@@ -11,5 +12,6 @@ void print_numbers(void)
 		_putchar(x + '0');
 	}
 	_putchar('\n');
+	return (x);
 
 }
