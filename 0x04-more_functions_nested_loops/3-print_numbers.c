@@ -4,7 +4,7 @@
 * print_numbers - function prints numbers from 0-9
 *Return: 0-9
 */
-void print_numbers(void)
+void print_numbers(int x)
 {
 	int x;
 
