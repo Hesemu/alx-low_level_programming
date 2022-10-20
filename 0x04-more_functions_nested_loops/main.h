@@ -26,3 +26,4 @@ int mul(int a, int b);
 
 
 #endif
+void print_numbers(void);
