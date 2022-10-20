@@ -5,7 +5,7 @@
 *@c: character to be checked
 * Return: Always 1: 0 otherwise.
 */
-int _isupper(int c);
+int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 
