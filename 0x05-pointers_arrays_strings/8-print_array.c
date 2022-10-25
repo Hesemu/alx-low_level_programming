@@ -15,10 +15,10 @@ void print_array(int *a, int n)
 
 		if (i == n - 1)
 			continue;
-		_putchar(',');
+		printf(",");
 
 	}
-	_putchar('\n');
+	printf("\n");
 
 
 }
