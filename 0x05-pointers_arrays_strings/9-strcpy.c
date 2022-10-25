@@ -6,13 +6,13 @@
 *@dest: buffer to copy the string to
 *Return: Returns the value of dest
 */
-char *_strcpy(char *dest, const char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
 
 	while (src[i])
 	{
-		dest[i] = src[i];
+		dest[i + '\0'] = src[i + '\0'];
 		i++;
 
 	}
